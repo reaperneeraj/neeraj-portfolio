@@ -4,23 +4,23 @@ const Social = () => {
     const social = [
         {
             name: 'Github',
-            link: 'https://github.com/bhaskarrijal'
+            link: 'https://github.com/reaperneeraj'
         },
-        {
-            name: 'Twitter',
-            link: 'https://twitter.com/bhaskarijal',
-        },
-        {
-            name: 'LinkedIn',
-            link: 'https://linkedin.com/in/bhaskarrijal',
-        },
+        // {
+        //     name: 'Twitter',
+        //     link: 'https://twitter.com/bhaskarijal',
+        // },
+        // {
+        //     name: 'LinkedIn',
+        //     link: 'https://linkedin.com/in/bhaskarrijal',
+        // },
         {
             name: 'Instagram',
-            link: 'https://instagram.com/bhaskarrijal',
+            link: 'https://instagram.com/pyro__sirhorww',
         },
         {
             name: 'Facebook',
-            link: 'https://facebook.com/bhaskarrijal',
+            link: 'https://www.facebook.com/neerajgautam69/',
         },
     ]
 
@@ -29,11 +29,6 @@ const Social = () => {
             <div className="flex flex-col gap-4">
                 <h2 className="font-medium text-2xl">Social</h2>
                 <ul className="list-inside">
-                    <li>
-                        <a href='https://bhaskarrijal.me/blog' target='_blank' className='text-primary underline italic'>
-                            <span>Blog</span>
-                        </a>
-                    </li>
                     {
                         social.map((social, index) => (
                             <li key={index}>
