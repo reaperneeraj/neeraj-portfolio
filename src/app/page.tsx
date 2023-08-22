@@ -63,7 +63,7 @@ const Page = () => {
 				<h2 className="text-2xl font-medium">Contact</h2>
 				<ul className="list-inside">
 					<li>
-						<span>{'email: '}</span>
+						<i className='bi bi-envelope mr-2'/>
 						<a href="mailto:mail@neerajgautam.com" className="italic underline text-primary">
 							mail@neerajgautam.com
 						</a>

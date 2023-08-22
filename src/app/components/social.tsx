@@ -4,6 +4,7 @@ const Social = () => {
     const social = [
         {
             name: 'Github',
+            icon: 'bi-github',
             link: 'https://github.com/reaperneeraj'
         },
         // {
@@ -16,10 +17,12 @@ const Social = () => {
         // },
         {
             name: 'Instagram',
+            icon: 'bi-instagram',
             link: 'https://instagram.com/pyro__sirhorww',
         },
         {
             name: 'Facebook',
+            icon: 'bi-facebook',
             link: 'https://www.facebook.com/neerajgautam69/',
         },
     ]
@@ -31,7 +34,8 @@ const Social = () => {
                 <ul className="list-inside">
                     {
                         social.map((social, index) => (
-                            <li key={index}>
+                            <li key={index} className='flex gap-2'>
+                                <i className={`bi ${social.icon}`}/> 
                                 <a href={social.link} target='_blank' className='text-primary underline italic'>
                                     <span>{social.link}</span>
                                 </a>
