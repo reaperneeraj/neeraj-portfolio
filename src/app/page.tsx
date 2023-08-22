@@ -75,6 +75,7 @@ const Page = () => {
 				{'Neeraj Gautam ' + new Date().getFullYear()}, <a href='https://github.com/bhaskarrijal/bhaskarrijal-min' target='_blank' className='italic underline text-primary'>original site</a>
 			</p>
 		</div>
+		
 	);
 };
 
